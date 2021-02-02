@@ -142,18 +142,17 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
+    { text: 'ABCorps', value: 'https://seanmccann.s3.amazonaws.com/AlbertaCorporations.comBlack.svg' },
     { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg' },
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg' },
     { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg' },
-    { text: 'ABCorps', value: 'http://seanmccann.s3.amazonaws.com/AlbertaCorporations.comBlack.svg' },
 ];
 
 const imageDarkOptions: DropdownOption[] = [
-
+    { text: 'ABCorps', value: 'https://seanmccann.s3.amazonaws.com/AlbertaCorporations.com.svg' },
     { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg' },
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg' },
     { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-bw-logo.svg' },
-    { text: 'ABCorps', value: 'https://seanmccann.s3.amazonaws.com/AlbertaCorporations.com.svg' },
 ];
 
 const widthOptions = [
@@ -205,7 +204,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
     const {
         fileType = 'png',
         fontSize = '100px',
-        theme = 'light',
+        theme = 'dark',
         md = true,
         text = '**Hello** World',
         images=[imageLightOptions[0].value],
