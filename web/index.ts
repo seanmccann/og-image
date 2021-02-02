@@ -152,7 +152,7 @@ const imageDarkOptions: DropdownOption[] = [
     { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg' },
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg' },
     { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-bw-logo.svg' },
-    { text: 'ABCorps', value: 'http://seanmccann.s3.amazonaws.com/AlbertaCorporations.com.svg' },
+    { text: 'ABCorps', value: 'https://seanmccann.s3.amazonaws.com/AlbertaCorporations.com.svg' },
 ];
 
 const widthOptions = [
